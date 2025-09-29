@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css_file/style.css" />
+    <title>Main Page</title>
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <a href="welcome.html">
+          <img
+            src="../images/lax-logo.png"
+            alt="logo"
+            style="width: 10%; height: 80px"
+          />
+        </a>
+
+        <menu class="menu_nav">
+          <li><a href="flights.html">Flight</a></li>
+          <li><a href="parking.html">Parking</a></li>
+          <li><a href="map.html">Terminals, Directions, & More</a></li>
+          <li><a href="shops.html">Dine & Shop</a></li>
+          <li><a href="#">Rewards Plan</a></li>
+        </menu>
+      </nav>
+    </header>
+    <main>
+      <section class="opening">
+        <img class="ellipse-img" src="../images/LAX.jpg" alt="lax" />
+        <h2 class="title">
+          International Aiport on the West Coast of the United States
+        </h2>
+      </section>
+      <section class="booking">
+        <div class="flight">
+          <button class="button1" type="button">Departures</button>
+          <button class="button2" type="button">Arrivals</button>
+        </div>
+        <div class="flight">
+          <div class="code">
+            <input
+              type="text"
+              id="code1"
+              placeholder="Enter Airline/code                          "
+              class="code1"
+              minlength="6"
+              maxlength="6"
+            />
+            <input
+              type="text"
+              id="code2"
+              class="code2"
+              placeholder="Flight Number  
+                                           "
+              minlength="6"
+              maxlength="6"
+            />
+            <button class="button3" type="button">></button>
+          </div>
+        </div>
+        <div class="flight">
+          <button class="button4" type="button">
+            <a href="parking.html">Book Parking at LAX </a>
+          </button>
+        </div>
+      </section>
+      <section class="options">
+        <div class="center">
+          <div class="row1">
+            <button class="button_rows" type="button">
+              <a href="parking.html">Parking</a>
+            </button>
+            <button class="button_rows" type="button">
+              <a href="map.html">Terminals, Directions, & More</a>
+            </button>
+            <button class="button_rows" type="button">
+              <a href="flights.html">Flight</a>
+            </button>
+          </div>
+          <div class="row2">
+            <button class="button_rows" type="button">
+              <a href="shops.html">Dine & Shop</a>
+            </button>
+            <button class="button_rows" type="button">
+              <a href="#">Rewards Plan</a>
+            </button>
+            <button class="button_rows" type="button">
+              <a href="#">Contact Us</a>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+      <div class="footer_container">
+        <img
+          class="flow_left"
+          src="../images/lax-logo.png"
+          alt="logo"
+          style="height: 80px"
+        />
+        <p>
+          Los Angeles International Airport (LAX), 1 World Wy, Los Angeles, CA
+          90045
+        </p>
+        <br />
+        <textarea rows="4" cols="50">
+          "Questions"
+        </textarea>
+      </div>
+    </footer>
+  </body>
+</html>
