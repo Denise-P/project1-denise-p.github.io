@@ -1,0 +1,167 @@
+body {
+  font: 2.2em Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  background-color: #2543b0;
+  color: white;
+}
+header {
+  background-color: lightblue;
+  position: sticky;
+  top: 0;
+  padding: 12px;
+}
+.menu_nav {
+  font-size: 0.5em;
+  list-style-type: none;
+  margin: 0;
+  float: right;
+  color: black;
+}
+
+.ellipse-img {
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 80%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  object-fit: fill;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.booking {
+  background-color: #1f2336;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flight {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  width: 30%;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  border: none;
+  color: #0b50cf;
+}
+.button2 {
+  width: 30%;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  border: none;
+  background-color: gainsboro;
+  color: #0b50cf;
+}
+.button3 {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  color: gray;
+  padding-top: 12px;
+}
+.button4 {
+  border-radius: 10px;
+  background-color: #f8a129;
+  border: none;
+  font-size: 40px;
+  font-weight: 600;
+  width: 60%;
+  color: white;
+  padding-top: 12px;
+}
+
+.code {
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  border: none;
+  color: #0b50cf;
+}
+.code1 {
+  border: none;
+  background-color: transparent;
+  width: 400px;
+  height: 60px;
+  float: left;
+}
+.code2 {
+  border: none;
+  background-color: transparent;
+  width: 400px;
+  height: 60px;
+  float: left;
+}
+input::placeholder {
+  font-size: 2em;
+  font-style: italic;
+}
+
+.options {
+  background-color: #1f2336;
+  padding-bottom: 40px;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.button_rows {
+  border-radius: 10px;
+  width: 20%;
+  height: 200px;
+  font: 0.8em Georgia, "Times New Roman", Times, serif;
+}
+table {
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+}
+.row img {
+  width: 200px;
+  max-height: 150px;
+}
+
+.image {
+  padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.flow_left {
+  float: left;
+  margin-right: 10px;
+}
+.footer {
+  background-color: lightblue;
+  padding-top: 40px;
+  margin-bottom: 0;
+  
+}
+.footer_container {
+  border-top: 1px solid gray;
+  text-align: center;
+  font-size: 0.75em;
+  color: black;
+}
